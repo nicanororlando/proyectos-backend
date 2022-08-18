@@ -5,11 +5,12 @@ import com.canor.jobs.models.Vacant;
 import com.canor.jobs.repository.IVacantsRepository;
 import java.util.Date;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class JobsApplication {
+public class JobsApplication implements CommandLineRunner {
 
   @Autowired
   private IVacantsRepository vacantsRepository;
