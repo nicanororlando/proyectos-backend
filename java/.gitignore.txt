@@ -1,0 +1,2 @@
+!adventist-api/uploads/
+!webfluxmongo/uploads/
