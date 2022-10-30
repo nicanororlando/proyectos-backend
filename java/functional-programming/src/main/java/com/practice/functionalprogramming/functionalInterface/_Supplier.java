@@ -3,6 +3,7 @@ package com.practice.functionalprogramming.functionalInterface;
 import java.util.List;
 import java.util.function.Supplier;
 
+// Is like a Getter function
 public class _Supplier {
 
   public static void main(String[] args) {

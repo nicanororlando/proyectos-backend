@@ -1,9 +1,11 @@
-package com.practice.functionalprogramming.streams.MapAndFlatmap;
+package com.practice.functionalprogramming.streams;
 
+import com.practice.functionalprogramming.streams.SchoolClassModel.SchoolClass;
+import com.practice.functionalprogramming.streams.SchoolClassModel.Student;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class Main {
+public class Map_Flatmap {
 
   public static void main(String[] args) {
     List<SchoolClass> schoolClasses = createSchoolClasses();

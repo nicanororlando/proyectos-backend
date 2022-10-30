@@ -3,6 +3,7 @@ package com.practice.functionalprogramming.functionalInterface;
 import java.util.function.BiConsumer;
 import java.util.function.Consumer;
 
+// Its a void function
 public class _Consumer {
 
   public static void main(String[] args) {

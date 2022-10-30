@@ -42,3 +42,6 @@
    -Creamos la configuracion para conectar a la base de datos en el archivo 'mysql.js'.
    -Creamos la conexion a la base de datos en 'app.js'.
    -Instalamos 'mysql2'.
+   -Tenemos que crear la db si no la tenemos, para eso ejecutamos estas queries:
+   .create database api_node
+   .use api_node

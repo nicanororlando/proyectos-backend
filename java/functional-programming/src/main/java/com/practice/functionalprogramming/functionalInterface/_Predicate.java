@@ -2,6 +2,7 @@ package com.practice.functionalprogramming.functionalInterface;
 
 import java.util.function.Predicate;
 
+// Its a boolean function
 public class _Predicate {
 
   public static void main(String[] args) {

@@ -1,5 +1,7 @@
 const { Sequelize } = require("sequelize");
 
+// https://www.youtube.com/watch?v=CRwGhVFSfwQ&list=PL_8FSlpwPBDkcBeEdgZ4e-RYUGvIA3LNI&index=3
+
 const database = process.env.MYSQL_DATABASE;
 const username = process.env.MYSQL_USERNAME;
 const password = process.env.MYSQL_PASSWORD;

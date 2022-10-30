@@ -1,4 +1,4 @@
-package com.practice.functionalprogramming.streams.MapAndFlatmap;
+package com.practice.functionalprogramming.streams.SchoolClassModel;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -32,6 +32,10 @@ public class SchoolClass {
   }
 
   public void addStudent(Student student) {
-    this.students.add(student);
+    students.add(student);
+  }
+
+  public void merge(SchoolClass classToMerge) {
+    this.students.addAll(classToMerge.getStudents());
   }
 }

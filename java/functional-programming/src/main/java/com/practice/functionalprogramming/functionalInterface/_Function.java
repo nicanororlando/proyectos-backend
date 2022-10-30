@@ -3,6 +3,7 @@ package com.practice.functionalprogramming.functionalInterface;
 import java.util.function.BiFunction;
 import java.util.function.Function;
 
+// Its a normal function
 public class _Function {
 
   public static void main(String[] args) {

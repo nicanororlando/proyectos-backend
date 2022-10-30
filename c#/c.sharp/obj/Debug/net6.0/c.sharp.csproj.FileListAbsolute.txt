@@ -1,0 +1,15 @@
+H:\ProyectosBack\c#\c.sharp\obj\Debug\net6.0\c.sharp.csproj.AssemblyReference.cache
+H:\ProyectosBack\c#\c.sharp\obj\Debug\net6.0\c.sharp.GeneratedMSBuildEditorConfig.editorconfig
+H:\ProyectosBack\c#\c.sharp\obj\Debug\net6.0\c.sharp.AssemblyInfoInputs.cache
+H:\ProyectosBack\c#\c.sharp\obj\Debug\net6.0\c.sharp.AssemblyInfo.cs
+H:\ProyectosBack\c#\c.sharp\obj\Debug\net6.0\c.sharp.csproj.CoreCompileInputs.cache
+H:\ProyectosBack\c#\c.sharp\bin\Debug\net6.0\c.sharp.exe
+H:\ProyectosBack\c#\c.sharp\bin\Debug\net6.0\c.sharp.deps.json
+H:\ProyectosBack\c#\c.sharp\bin\Debug\net6.0\c.sharp.runtimeconfig.json
+H:\ProyectosBack\c#\c.sharp\bin\Debug\net6.0\c.sharp.dll
+H:\ProyectosBack\c#\c.sharp\bin\Debug\net6.0\c.sharp.pdb
+H:\ProyectosBack\c#\c.sharp\obj\Debug\net6.0\c.sharp.dll
+H:\ProyectosBack\c#\c.sharp\obj\Debug\net6.0\refint\c.sharp.dll
+H:\ProyectosBack\c#\c.sharp\obj\Debug\net6.0\c.sharp.pdb
+H:\ProyectosBack\c#\c.sharp\obj\Debug\net6.0\c.sharp.genruntimeconfig.cache
+H:\ProyectosBack\c#\c.sharp\obj\Debug\net6.0\ref\c.sharp.dll
