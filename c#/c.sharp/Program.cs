@@ -1,4 +1,5 @@
-﻿using static c.sharp.UserInput;
+﻿using c.sharp;
+using static c.sharp.UserInput;
 
 // // USER INPUT
 // c.sharp.UserInput userInput = new c.sharp.UserInput();
@@ -13,7 +14,7 @@
 // Console.WriteLine("Name: " + michael.Name);
 
 // LIST
-c.sharp.List list = new c.sharp.List();
+List list = new List();
 var friends = new List<string> { "Frank", "Canor", "Joe", "Michelle", "Andy", "Maria", "Carlos" };
 var partyFriends = list.getPartyFriends(friends, 4);
 foreach (var name in partyFriends) Console.WriteLine(name);

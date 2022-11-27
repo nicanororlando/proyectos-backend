@@ -1,0 +1,48 @@
+{
+  "format": 1,
+  "restore": {
+    "H:\\ProyectosBack\\c#\\Catalog\\build.proj": {}
+  },
+  "projects": {
+    "H:\\ProyectosBack\\c#\\Catalog\\build.proj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\ProyectosBack\\c#\\Catalog\\build.proj",
+        "projectName": "build",
+        "projectPath": "H:\\ProyectosBack\\c#\\Catalog\\build.proj",
+        "packagesPath": "C:\\Users\\nican\\.nuget\\packages\\",
+        "outputPath": "H:\\ProyectosBack\\c#\\Catalog\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nican\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net45"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net45": {
+            "targetAlias": "net45",
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net45": {
+          "targetAlias": "net45",
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.2, )",
+              "autoReferenced": true
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
