@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "sy5VDuyHJ1NBEzJwDcrsANsj+bPm9X7vCOliLr82LpHMFwmz9qlXoHfBEeRyHZnYEM0S9FGNSEOt278mK6ceTw==",
+  "success": true,
+  "projectFilePath": "H:\\ProyectosBack\\c#\\Catalog\\build.proj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nican\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.2\\microsoft.netframework.referenceassemblies.1.0.2.nupkg.sha512",
+    "C:\\Users\\nican\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net45\\1.0.2\\microsoft.netframework.referenceassemblies.net45.1.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

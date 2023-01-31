@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.Build.Traversal/3.0.3">
+  <ItemGroup>
+    <!-- Every file thats matches with the following will be compiled: -->
+    <ProjectReference Include="**\*.*proj" />
+  </ItemGroup>
+</Project>
