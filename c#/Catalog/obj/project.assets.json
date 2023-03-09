@@ -353,19 +353,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\nican\\.nuget\\packages\\": {}
+    "C:\\Users\\Dell\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\ProyectosBack\\c#\\Catalog\\build.proj",
+      "projectUniqueName": "D:\\Backend\\c#\\Catalog\\build.proj",
       "projectName": "build",
-      "projectPath": "H:\\ProyectosBack\\c#\\Catalog\\build.proj",
-      "packagesPath": "C:\\Users\\nican\\.nuget\\packages\\",
-      "outputPath": "H:\\ProyectosBack\\c#\\Catalog\\obj\\",
+      "projectPath": "D:\\Backend\\c#\\Catalog\\build.proj",
+      "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+      "outputPath": "D:\\Backend\\c#\\Catalog\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\nican\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net45"
@@ -391,7 +391,7 @@
             "autoReferenced": true
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.406\\RuntimeIdentifierGraph.json"
       }
     }
   }

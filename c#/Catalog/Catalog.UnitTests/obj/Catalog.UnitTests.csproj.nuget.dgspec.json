@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "H:\\ProyectosBack\\c#\\Catalog\\Catalog.UnitTests\\Catalog.UnitTests.csproj": {}
+    "D:\\Backend\\c#\\Catalog\\Catalog.UnitTests\\Catalog.UnitTests.csproj": {}
   },
   "projects": {
-    "H:\\ProyectosBack\\c#\\Catalog\\Catalog.Api\\Catalog.Api.csproj": {
+    "D:\\Backend\\c#\\Catalog\\Catalog.Api\\Catalog.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\ProyectosBack\\c#\\Catalog\\Catalog.Api\\Catalog.Api.csproj",
+        "projectUniqueName": "D:\\Backend\\c#\\Catalog\\Catalog.Api\\Catalog.Api.csproj",
         "projectName": "Catalog.Api",
-        "projectPath": "H:\\ProyectosBack\\c#\\Catalog\\Catalog.Api\\Catalog.Api.csproj",
-        "packagesPath": "C:\\Users\\nican\\.nuget\\packages\\",
-        "outputPath": "H:\\ProyectosBack\\c#\\Catalog\\Catalog.Api\\obj\\",
+        "projectPath": "D:\\Backend\\c#\\Catalog\\Catalog.Api\\Catalog.Api.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "D:\\Backend\\c#\\Catalog\\Catalog.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nican\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -66,21 +66,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.406\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "H:\\ProyectosBack\\c#\\Catalog\\Catalog.UnitTests\\Catalog.UnitTests.csproj": {
+    "D:\\Backend\\c#\\Catalog\\Catalog.UnitTests\\Catalog.UnitTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\ProyectosBack\\c#\\Catalog\\Catalog.UnitTests\\Catalog.UnitTests.csproj",
+        "projectUniqueName": "D:\\Backend\\c#\\Catalog\\Catalog.UnitTests\\Catalog.UnitTests.csproj",
         "projectName": "Catalog.UnitTests",
-        "projectPath": "H:\\ProyectosBack\\c#\\Catalog\\Catalog.UnitTests\\Catalog.UnitTests.csproj",
-        "packagesPath": "C:\\Users\\nican\\.nuget\\packages\\",
-        "outputPath": "H:\\ProyectosBack\\c#\\Catalog\\Catalog.UnitTests\\obj\\",
+        "projectPath": "D:\\Backend\\c#\\Catalog\\Catalog.UnitTests\\Catalog.UnitTests.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "D:\\Backend\\c#\\Catalog\\Catalog.UnitTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nican\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -92,8 +92,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "H:\\ProyectosBack\\c#\\Catalog\\Catalog.Api\\Catalog.Api.csproj": {
-                "projectPath": "H:\\ProyectosBack\\c#\\Catalog\\Catalog.Api\\Catalog.Api.csproj"
+              "D:\\Backend\\c#\\Catalog\\Catalog.Api\\Catalog.Api.csproj": {
+                "projectPath": "D:\\Backend\\c#\\Catalog\\Catalog.Api\\Catalog.Api.csproj"
               }
             }
           }
@@ -153,7 +153,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.406\\RuntimeIdentifierGraph.json"
         }
       }
     }

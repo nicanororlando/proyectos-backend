@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "H:\\ProyectosBack\\c#\\Catalog\\catalog.api\\Catalog.Api.csproj": {}
+    "D:\\Backend\\c#\\Catalog\\catalog.api\\Catalog.Api.csproj": {}
   },
   "projects": {
-    "H:\\ProyectosBack\\c#\\Catalog\\catalog.api\\Catalog.Api.csproj": {
+    "D:\\Backend\\c#\\Catalog\\catalog.api\\Catalog.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\ProyectosBack\\c#\\Catalog\\catalog.api\\Catalog.Api.csproj",
+        "projectUniqueName": "D:\\Backend\\c#\\Catalog\\catalog.api\\Catalog.Api.csproj",
         "projectName": "Catalog.Api",
-        "projectPath": "H:\\ProyectosBack\\c#\\Catalog\\catalog.api\\Catalog.Api.csproj",
-        "packagesPath": "C:\\Users\\nican\\.nuget\\packages\\",
-        "outputPath": "H:\\ProyectosBack\\c#\\Catalog\\catalog.api\\obj\\",
+        "projectPath": "D:\\Backend\\c#\\Catalog\\catalog.api\\Catalog.Api.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "D:\\Backend\\c#\\Catalog\\catalog.api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nican\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -66,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.406\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "sy5VDuyHJ1NBEzJwDcrsANsj+bPm9X7vCOliLr82LpHMFwmz9qlXoHfBEeRyHZnYEM0S9FGNSEOt278mK6ceTw==",
+  "dgSpecHash": "++9/XZ6iQ7uGddnKsrEVwi6L5NkSCMp6Z3tYhnLkTfWYaAncpGXIjxsRz0+DppV7Gmu5uTzFZhyfocTYr+UkDw==",
   "success": true,
-  "projectFilePath": "H:\\ProyectosBack\\c#\\Catalog\\build.proj",
+  "projectFilePath": "D:\\Backend\\c#\\Catalog\\build.proj",
   "expectedPackageFiles": [
-    "C:\\Users\\nican\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.2\\microsoft.netframework.referenceassemblies.1.0.2.nupkg.sha512",
-    "C:\\Users\\nican\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net45\\1.0.2\\microsoft.netframework.referenceassemblies.net45.1.0.2.nupkg.sha512"
+    "C:\\Users\\Dell\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.2\\microsoft.netframework.referenceassemblies.1.0.2.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net45\\1.0.2\\microsoft.netframework.referenceassemblies.net45.1.0.2.nupkg.sha512"
   ],
   "logs": []
 }
