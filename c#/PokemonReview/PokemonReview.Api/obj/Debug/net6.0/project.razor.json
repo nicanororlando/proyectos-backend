@@ -1,6 +1,6 @@
 {
-  "SerializedFilePath": "d:\\Backend\\c#\\Catalog\\Catalog.Api\\obj\\Debug\\net6.0\\project.razor.json",
-  "FilePath": "d:\\Backend\\c#\\Catalog\\Catalog.Api\\Catalog.Api.csproj",
+  "SerializedFilePath": "d:\\Backend\\c#\\PokemonReview\\PokemonReview.Api\\obj\\Debug\\net6.0\\project.razor.json",
+  "FilePath": "d:\\Backend\\c#\\PokemonReview\\PokemonReview.Api\\PokemonReview.Api.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "6.0",
@@ -18371,7 +18371,7 @@
     ],
     "CSharpLanguageVersion": 1000
   },
-  "RootNamespace": "Catalog.Api",
+  "RootNamespace": "PokemonReview.Api",
   "Documents": [],
   "SerializationFormat": "0.3"
 }

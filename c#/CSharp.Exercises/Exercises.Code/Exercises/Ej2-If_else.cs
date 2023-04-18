@@ -14,8 +14,7 @@ public class Ej2
   {
     return (!archerIsAwake && prisonerIsAwake) ? true : false;
   }
-  public bool CanFreePrisoner(bool knightIsAwake, bool archerIsAwake, bool prisonerIsAwake, bool petDogIsPresent)
-  {
+  public bool CanFreePrisoner(bool knightIsAwake, bool archerIsAwake, bool prisonerIsAwake, bool petDogIsPresent){
     if (petDogIsPresent && !archerIsAwake) return true;
     else if (!knightIsAwake && !archerIsAwake && prisonerIsAwake && !petDogIsPresent) return true;
     else return false;
