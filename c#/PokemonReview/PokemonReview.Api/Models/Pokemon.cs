@@ -6,7 +6,11 @@ namespace PokemonReview.Api.Models
         public string Name { get; set; }
         public DateTime BirthDate { get; set; }
         public ICollection<Review> Reviews { get; set; }
-        // public ICollection<Owner> Owners { get; set; }
-        // public ICollection<Category> Categories { get; set; }
+
+        // Many to many relationship
+        public ICollection<PokemonOwner> PokemonOwners { get; set; }
+
+        // Many to many relationship
+        public ICollection<PokemonCategory> PokemonCategories { get; set; }
     }
 }
