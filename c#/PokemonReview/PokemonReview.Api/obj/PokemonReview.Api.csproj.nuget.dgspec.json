@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Backend\\c#\\PokemonReview\\PokemonReview.Api\\PokemonReview.Api.csproj": {}
+    "d:\\Backend\\c#\\PokemonReview\\PokemonReview.Api\\PokemonReview.Api.csproj": {}
   },
   "projects": {
-    "D:\\Backend\\c#\\PokemonReview\\PokemonReview.Api\\PokemonReview.Api.csproj": {
+    "d:\\Backend\\c#\\PokemonReview\\PokemonReview.Api\\PokemonReview.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Backend\\c#\\PokemonReview\\PokemonReview.Api\\PokemonReview.Api.csproj",
+        "projectUniqueName": "d:\\Backend\\c#\\PokemonReview\\PokemonReview.Api\\PokemonReview.Api.csproj",
         "projectName": "PokemonReview.Api",
-        "projectPath": "D:\\Backend\\c#\\PokemonReview\\PokemonReview.Api\\PokemonReview.Api.csproj",
+        "projectPath": "d:\\Backend\\c#\\PokemonReview\\PokemonReview.Api\\PokemonReview.Api.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "D:\\Backend\\c#\\PokemonReview\\PokemonReview.Api\\obj\\",
+        "outputPath": "d:\\Backend\\c#\\PokemonReview\\PokemonReview.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -38,6 +38,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.5, )"

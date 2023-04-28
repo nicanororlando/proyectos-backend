@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using PokemonReview.Api.Repositories.PokemonRepository;
 using PokemonReviewApp;
 using PokemonReviewApp.Data;
 
@@ -6,23 +7,20 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-// dotnet add package Microsoft.EntityFrameworkCore.InMemory
-// using Microsoft.EntityFrameworkCore;
-
-// builder.Services.AddDbContext<MySqlDbContext>(
-//     options => options.UseMySql(builder.Configuration.GetConnectionString("MySqlConnection"))
-// );
-
-// builder.Services.Configure<MySqlDbContext>(builder.Configuration.GetSection("MySqlConnection"));
-
 builder.Services.AddControllers();
 
 // 'AddTransient' to add the object injection at the begining
 builder.Services.AddTransient<Seed>();
 
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
+// TODO To wire up the Dependency Injection
+builder.Services.AddScoped<IPokemonRepository, PokemonRepository>();
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 
+// builder.Services.AddCors();
 builder.Services.AddSwaggerGen();
 
 // Adding the Mysql connection string.
@@ -52,6 +50,16 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+// TODO Important to enable CORS:
+app.UseCors(
+    builder =>
+        builder
+            .WithOrigins("http://localhost:5128", "https://localhost:7199")
+            .AllowAnyHeader()
+            .AllowCredentials()
+            .AllowAnyMethod()
+);
 
 app.UseHttpsRedirection();
 

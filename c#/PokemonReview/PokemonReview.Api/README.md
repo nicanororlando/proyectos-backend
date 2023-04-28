@@ -20,6 +20,7 @@ Once finished the configuration, follow this steps:
 
 1. # Install `dotnet add package Microsoft.EntityFrameworkCore.Tools`
 2. If not installed yet: `dotnet tool install --global dotnet-ef`
-3. # Install `dotnet ef migrations add InitialData --context DataContext`
-4. Run `dotnet ef database update --context DataContext`
-5. To seed or pass the data: `dotnet run seeddata`
+3. If it exists, remove the Migrations folder. and run this comand: `dotnet ef migrations remove --context DataContext`
+4. # Install `dotnet ef migrations add InitialData --context DataContext`
+5. Run `dotnet ef database update --context DataContext`
+6. To seed or pass the data: `dotnet run seeddata`
