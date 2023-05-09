@@ -6,7 +6,7 @@ using PokemonReview.Api.Repositories.CategoryRepository;
 
 namespace PokemonReview.Api.Controllers
 {
-    [Route("api([controller])")]
+    [Route("api/[controller]")]
     [ApiController]
     public class CategoryController : Controller
     {

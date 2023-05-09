@@ -1,4 +1,7 @@
 using Microsoft.EntityFrameworkCore;
+using PokemonReview.Api.Repositories.CategoryRepository;
+using PokemonReview.Api.Repositories.CountryRepository;
+using PokemonReview.Api.Repositories.OwnerRepository;
 using PokemonReview.Api.Repositories.PokemonRepository;
 using PokemonReviewApp;
 using PokemonReviewApp.Data;
@@ -16,6 +19,9 @@ builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 // TODO To wire up the Dependency Injection
 builder.Services.AddScoped<IPokemonRepository, PokemonRepository>();
+builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+builder.Services.AddScoped<ICountryRepository, CountryRepository>();
+builder.Services.AddScoped<IOwnerRepository, OwnerRepository>();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
