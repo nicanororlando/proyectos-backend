@@ -35,7 +35,7 @@ public class Main {
         System.out.println("Cost: " + c.getCost() + ", Description: " + c.getDescription());
     }
 
-        private static void printPizza (IPizza p){
+    private static void printPizza (IPizza p){
         System.out.println("Cost: " + p.getCost() + ", Description: " + p.getDescription());
     }
 }
